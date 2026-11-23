@@ -1,0 +1,32 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated CSV files and private datasets
+datasets/*.csv
+threatlens_live_cisa_kev.csv
